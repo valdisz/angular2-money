@@ -1,0 +1,1 @@
+Code which should help to deal with money in Angular2/JS applications.

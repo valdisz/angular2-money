@@ -1,0 +1,20 @@
+$money-font: Roboto, monospace;
+
+money {
+    .money {
+        &__amount {
+            font-family: $money-font;
+            font-weight: 500;
+        }
+
+        &__currency {
+            margin-left: 0.33em;
+            font-weight: 300;
+        }
+
+        &__symbol {
+            font-family: $money-font;
+            user-select: none;
+        }
+    }
+}
